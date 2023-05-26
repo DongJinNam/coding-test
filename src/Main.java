@@ -34,6 +34,7 @@ public class Main {
         }
     }
 
+    // add test code
     public static void main(String[] args) {
         System.out.println(Solution.solution("edeaaabbccd"));
         System.out.println(Solution.solution("eeddee"));
