@@ -1,3 +1,5 @@
+package programmers;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -9,10 +11,10 @@ public class Solution_121685 {
 //    int[][] queries2 = {{3, 8}, {2, 2}};
 //    int[][] queries3 = {{3, 1}, {2, 3}, {3, 9}};
 //    int[][] queries4 = {{4, 26}};
-//        System.out.println(Solution_121685.solution(queries));
-//        System.out.println(Solution_121685.solution(queries2));
-//        System.out.println(Solution_121685.solution(queries3));
-//        System.out.println(Solution_121685.solution(queries4));
+//        System.out.println(programmers.Solution_121685.solution(queries));
+//        System.out.println(programmers.Solution_121685.solution(queries2));
+//        System.out.println(programmers.Solution_121685.solution(queries3));
+//        System.out.println(programmers.Solution_121685.solution(queries4));
     public static String[] solution(int[][] queries) {
         List<String> answer = new ArrayList<>();
         String[] arr = {"RR", "Rr", "Rr", "rr"};
