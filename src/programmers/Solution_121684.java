@@ -1,9 +1,5 @@
 package programmers;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-
 public class Solution_121684 {
 
     public static boolean visited[];
@@ -29,7 +25,7 @@ public class Solution_121684 {
         for (int i = 0; i < ability.length; i++) {
             if (!visited[i]) {
                 visited[i] = true;
-                total = Math.max(total, solve(count, sum + ability[i][index], index+1, ability));
+                total = Math.max(total, solve(count, sum + ability[i][index], index + 1, ability));
                 visited[i] = false;
             }
         }

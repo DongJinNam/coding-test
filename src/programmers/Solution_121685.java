@@ -2,7 +2,6 @@ package programmers;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Solution_121685 {
 
@@ -27,9 +26,8 @@ public class Solution_121685 {
                 answer.add(arr[1]);
                 continue;
             }
-
-            int value = (1 << (2 * (n-2)));
-            int temp = p-1;
+            int value = (1 << (2 * (n - 2)));
+            int temp = p - 1;
             boolean checked = false;
             while (value > 0) {
                 if (temp / value == 0) {
